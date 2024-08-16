@@ -1,0 +1,56 @@
+body{
+    background-image: url(Whale.jpg);
+}
+.HidePic{
+    display: none;
+    }
+section{
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Calendar{
+    margin: auto;
+    max-width: 800px;
+    font-family: serif;
+    font-weight: bold;
+    color: black;
+}
+.Month{
+    text-align: center;
+    background: #3a4d6b;
+    font-size: 80px;
+    letter-spacing: 1;
+    color: white;
+    border: 2px solid lightblue;
+}
+table, th, td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 27px;
+    border-collapse: collapse;
+    border: 5px solid white;
+    font-family: 'Times New Roman', Times, serif;
+}
+tr, th, td{
+    padding: 15px;
+}
+th{
+    background:#597faa;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    background: #3a4d6b;
+    color: white;
+}
+td:hover{
+    background:  #293e57;
+    }
+    .No8:hover{
+        background:  #4e8dd9;
+        width: auto;
+        }
